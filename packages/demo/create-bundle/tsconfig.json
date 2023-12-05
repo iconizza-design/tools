@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "target": "ESNext",
+    "rootDir": "./src",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "./lib",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
