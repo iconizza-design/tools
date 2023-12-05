@@ -1,0 +1,24 @@
+{
+	"name": "iconizza-tools",
+	"description": "Collection of functions for cleaning up and parsing SVG for Iconizza project",
+	"author": "Dennis Ollhoff",
+	"license": "MIT",
+	"private": true,
+	"bugs": "https://github.com/iconizza/tools/issues",
+	"homepage": "https://github.com/iconizza-design/tools",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/iconizza-design/tools.git"
+	},
+	"packageManager": "pnpm@8.8.0",
+	"scripts": {
+		"build": "pnpm -r run build",
+		"test": "pnpm -r run test",
+		"lint": "pnpm -r run lint",
+		"build:tools": "pnpm -r --filter \"./@iconizza/tools\" run build",
+		"test:tools": "pnpm -r --filter \"./@iconizza/tools\" run test:ci",
+		"lint:tools": "pnpm -r --filter \"./@iconizza/tools\" run lint",
+		"publish:tools": "pnpm -r --filter \"./@iconizza/tools\" run publish",
+		"release:tools": "pnpm -r --filter \"./@iconizza/tools\" run release"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "@iconizza-demo/create-bundle",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Script for generating icon bundles using Iconizza Tools",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc -b",
+		"start": "node ./lib/bundle-svg-full.js"
+	},
+	"dependencies": {
+		"@iconizza/tools": "workspace:^"
+	},
+	"devDependencies": {
+		"@iconizza/iconizza": "^0.0.2",
+		"@iconizza/json": "^0.0.1",
+		"@types/node": "^18.18.0",
+		"typescript": "^5.2.2"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name": "@iconizza-demo/unocss",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@iconizza/tools": "workspace:^",
+		"@unocss/reset": "^0.56.4",
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@nyxb/nyxi": "^0.0.31",
+		"@iconizza/types": "^0.0.2",
+		"@iconizza/utils": "^0.0.2",
+		"@types/node": "^18.18.0",
+		"@vitejs/plugin-vue": "^4.3.4",
+		"typescript": "^5.2.2",
+		"unocss": "^0.52.7",
+		"vite": "^4.4.9",
+		"vue-tsc": "^1.8.15"
+	}
+}
