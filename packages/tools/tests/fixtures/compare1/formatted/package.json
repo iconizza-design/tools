@@ -1,0 +1,19 @@
+{
+  "name": "@iconizza/collections",
+  "version": "0.0.0",
+  "description": "Iconizza icon sets list",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./collections.json": "./collections.json"
+  },
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@iconizza/types": "^0.0.2"
+  }
+}
