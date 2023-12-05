@@ -1,7 +1,7 @@
 {
   "name": "@iconizza/tools",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collection of functions for cleaning up and parsing SVG for Iconizza project",
   "author": "Dennis Ollhoff",
   "license": "MIT",
