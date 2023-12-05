@@ -20,12 +20,14 @@
     "build:tools": "pnpm -r --filter \"./packages/tools\" run build",
     "test:tools": "pnpm -r --filter \"./packages/tools\" run test:ci",
     "lint:tools": "pnpm -r --filter \"./packages/tools\" run lint",
-    "publish:tools": "pnpm -r --filter \"./packages/tools\" run publish",
+    "publish:tools": "pnpm -r --filter \"./packages/tools\" run publish --access public --no-git-checks",
     "release:tools": "pnpm -r --filter \"./packages/tools\" run release"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^2.0.0",
+    "@nyxb/nyxi": "^0.0.31",
     "@types/node": "^18.18.0",
+    "bumping": "^9.2.1",
     "eslint": "^8.55.0"
   }
 }

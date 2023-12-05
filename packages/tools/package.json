@@ -514,7 +514,6 @@
     "test:jasmine": "cross-env NODE_OPTIONS='--experimental-vm-modules --experimental-json-modules' npx jasmine",
     "test": "npm run test:jest-cjs && npm run test:jest-esm && npm run test:jasmine",
     "test:ci": "cross-env TEST_REMOTE=false npm run test",
-    "publish": "pnpm publish --access public --no-git-checks",
     "release": "bumping"
   },
   "dependencies": {
